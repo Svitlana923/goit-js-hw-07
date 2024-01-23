@@ -10,6 +10,7 @@ function getRandomHexColor() {
 }
 
 function createBoxes() {
+  boxesDiv.innerHTML = "";
   const amount = parseInt(input.value);
 
   if (amount >= 1 && amount <= 100) {
